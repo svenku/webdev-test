@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: Tahoma, Arial, sans-serif;
+
+}
+
+h1, h3 {
+  text-align: center;
+  }
+
+p {
+  background-color: white;
+  text-align: justify;
+  padding: 1em;
+  padding-top: 3em;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/***** Custom responsive design *****/
+.row {
+  width: 100%;
+}
+
+.brdr {
+  border: 1px solid black;
+  margin: 1em;
+}
+
+.heading {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 0.7em;
+  width: 10em;
+  height: 3em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  color: #501b1d;
+  float: right;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.bkgcolor1 {
+  background-color: #daad86;
+}
+
+.bkgcolor2 {
+  background-color: #d79922;
+}
+
+.bkgcolor3 {
+  background-color: #fbeec1;
+}
+
+/***** small devices ******/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    position: relative;
+    width: 100%;
+  }
+}
+
+/***** medium devices ******/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    position: relative;
+    width: 50%;
+  }
+  .col-md-12 {
+    float: left;
+    position: relative;
+    width: 100%;
+  }
+}
+
+/***** large devices ******/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    position: relative;
+    width: 33%;
+
+  }
+}
