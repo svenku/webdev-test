@@ -26,6 +26,7 @@ p {
 .brdr {
   border: 1px solid black;
   margin: 1em;
+  background-color: #d3d3d3;
 }
 
 .heading {
